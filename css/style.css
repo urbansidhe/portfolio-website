@@ -12,7 +12,6 @@ a {
 
 a:hover {
   text-decoration: none;
-  font-size: 20px;
   color: #481E6A;
 }
 
@@ -67,5 +66,81 @@ button a:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
+
+.center-on {
+	text-align: center;
+}
+
+.logo {
+	text-align: center
+}
+
+.navigation {
+	 list-style-type: none;
+	 padding: 0;
+	 text-align: center;
+}
+
+.navigation > li {
+	font-weight: bold;
+	display: inline-block;
+	margin-left: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #00565F;
+	font-size: 24px;
+}
+
+.navigation > li > a {
+	text-decoration: none;
+	color: #e6ecff;
+} 
+
+.navigation > li >  a:visited {
+	color: #26272B;
+}
+
+.navigation > li:hover {
+	background-color: #6E34BD;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navigation > li:hover > a {
+	color: #00565F;
+}
+
+.title {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.li1 {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.li3 {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.body-container {
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.column-4{
+	font-size: 16px;
+	display: inline-block;
+	width:24%;
+	margin-right: 20%;
+}
+
 
 /* color scheme- DED7EC, 481E6A, 00565F, 26272B, 6E34BD */ 
